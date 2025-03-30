@@ -3,14 +3,19 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBMXWyFvmRB1sAkf98PUGNJMIg4Wake2Vo",
-  authDomain: "equalpay-bc955.firebaseapp.com",
-  projectId: "equalpay-bc955",
-  storageBucket: "equalpay-bc955.firebasestorage.app",
-  messagingSenderId: "417428419591",
-  appId: "1:417428419591:web:3140b4f2b9f0ad5dc166a2",
-  measurementId: "G-RJT3M0NG6T"
+  apiKey: "AIzaSyDzWUoSRL5KctUYsDur-KGfWXiYTrprPtY",
+  authDomain: "equalpay-ai.firebaseapp.com",
+  projectId: "equalpay-ai",
+  storageBucket: "equalpay-ai.firebasestorage.app",
+  messagingSenderId: "11869460046",
+  appId: "1:11869460046:web:ce643ca9cfe96ce58b151f",
+  measurementId: "G-WNGH2VEX09"
 };
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
+
+const firebaseConfig = {
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  ...
+};

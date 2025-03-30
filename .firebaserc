@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "equalpay-ai",
+    "gnec": "equalpay-ai"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
